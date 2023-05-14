@@ -1,0 +1,33 @@
+    <html>
+        <body style=" margin: 0; padding: 0; box-sizing: border-box;">
+            <section>
+                <div class="container" style="margin: 0; padding: 0;  box-sizing: border-box;">
+        
+                    <div class="content">
+                        {{!-- <h5 style=" text-align: center; font-size: 20px; padding: 25px 0px;">Hello, the designer task for the date {{currentDate}}are as below.</h4> --}}
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Team</th>
+                                    <th>Project</th>
+                                    <th>Hours</th>
+                                    <th>Date</th>  
+                                </tr>
+                            </thead>
+                            
+                            <tbody>
+                                {{#each designerTask}}
+                                 <tr>
+                                    <td>{{this.team}}</td>
+                                </tr>
+                                 {{/each}}
+                            </tbody>
+                           
+                        </table>
+                    </div>                  
+                    
+                </div>
+                </section>
+        </body>
+    </html>
