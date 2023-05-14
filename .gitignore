@@ -1,3 +1,4 @@
 .env
 /helpers/*
 node_modules
+.json
