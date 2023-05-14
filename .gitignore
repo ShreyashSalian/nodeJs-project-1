@@ -1,3 +1,3 @@
 .env
-helper/user.json
+./helper/user.json
 node_modules
